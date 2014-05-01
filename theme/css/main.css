@@ -17,12 +17,12 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #a3aec3;
+    background: #bdd0e8;
     color: #834d52;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: "Courier New", Courier, monospace;
     line-height: 1.429;
-    margin: 12px;
+    margin: 10px;
     padding: 0;
     text-align: left;
 }
@@ -39,13 +39,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
 	margin-bottom: .8em;
-	color: #834d52; 
-    	font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
-h3, h4, h5, h6 { margin-top: .5em; }
+h3, h4, h5, h6 { margin-top: .8em; }
 	
-hr { border: 20px solid #EEEEEE; }
+hr { border: 2px solid #EEEEEE; }
 
 /* Anchors */
 a {outline: 0;}
@@ -56,15 +55,14 @@ a:link, a:visited {
 	text-decoration: underline;
 }
 a:hover, a:active {
-	background-color: #a58b8e;
-	color: #cec095;
+	background-color: #C74350;
+	color: #fff;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
 }
 
 h1 a:hover {
-    background-color: inherit;
-    color: #cec095
+    background-color: inherit
 }
 	
 /* Paragraphs */
@@ -156,18 +154,17 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	Header
 *****************/
 #banner {
-	margin: 20px auto;
+	margin: 0 auto;
 	padding: 2.5em 0 0 0;
-	margin-left: 150px;
 }
 
 	/* Banner */
 	#banner h1 {font-size: 3.571em; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #541718;
+		color: #000305;
 		display: block;
-		font-weight: normal;
-		margin: 100 50 .6em .2em;
+		font-weight: bold;
+		margin: 0 0 .6em .2em;
 		text-decoration: none;
 	}
 	#banner h1 a:hover, #banner h1 a:active {
@@ -176,10 +173,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		text-shadow: none;
 	}
 	
-	#banner h1 strong {
-			  font-size: 0.36em; 
-			  font-weight: normal;}
-			  color: #C7435;
+	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
 	
 	/* Main Nav */
 	#banner nav {
@@ -190,7 +184,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		margin: 0 auto 2em auto;
 		padding: 0;
 		text-align: center;
-		width: 640px;
+		width: 800px;
 		
 		border-radius: 5px;
 		-moz-border-radius: 5px;
@@ -203,7 +197,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner nav a:link, #banner nav a:visited {
 		color: #fff;
 		display: inline-block;
-		height: 50px;
+		height: 30px;
 		padding: 5px 1.5em;
 		text-decoration: none;
 	}
@@ -257,11 +251,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	Body
 *****************/
 #content {
-	background: #cbba87;
+	background: #fff;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 640px;
+	width: 760px;
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
