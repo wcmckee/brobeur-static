@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h3, h4, h5, h6 { margin-top: .8em; }
 	
-hr { border: 2px solid #EEEEEE; }
+hr { border: 20px solid #EEEEEE; }
 
 /* Anchors */
 a {outline: 0;}
@@ -165,7 +165,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		color: #000305;
 		display: block;
 		font-weight: bold;
-		margin: 0 0 .6em .2em;
+		margin: 100 50 .6em .2em;
 		text-decoration: none;
 	}
 	#banner h1 a:hover, #banner h1 a:active {
@@ -174,7 +174,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		text-shadow: none;
 	}
 	
-	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
+	#banner h1 strong {
+			  font-size: 0.36em; 
+			  font-weight: normal;}
+			  color: #C7435;
 	
 	/* Main Nav */
 	#banner nav {
@@ -185,7 +188,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		margin: 0 auto 2em auto;
 		padding: 0;
 		text-align: center;
-		width: 800px;
+		width: 640px;
 		
 		border-radius: 5px;
 		-moz-border-radius: 5px;
@@ -198,7 +201,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner nav a:link, #banner nav a:visited {
 		color: #fff;
 		display: inline-block;
-		height: 30px;
+		height: 50px;
 		padding: 5px 1.5em;
 		text-decoration: none;
 	}
@@ -252,11 +255,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	Body
 *****************/
 #content {
-	background: #fff;
+	background: #cbba87;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 760px;
+	width: 640px;
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
