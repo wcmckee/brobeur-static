@@ -17,7 +17,7 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #bdd0e8;
+    background: #a2aec3;
     color: #834d52;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: "Courier New", Courier, monospace;
@@ -44,13 +44,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h3, h4, h5, h6 { margin-top: .8em; }
 	
-hr { border: 2px solid #EEEEEE; }
+hr { border: 2px solid #551819; }
 
 /* Anchors */
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
-	color: #C74350;
+	color: #551819;
 	padding: 0 1px;
 	text-decoration: underline;
 }
@@ -161,7 +161,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	/* Banner */
 	#banner h1 {font-size: 3.571em; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #000305;
+		color: #551819;
 		display: block;
 		font-weight: bold;
 		margin: 0 0 .6em .2em;
@@ -169,7 +169,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	}
 	#banner h1 a:hover, #banner h1 a:active {
 		background: none;
-		color: #C74350;
+		color: #551819;
 		text-shadow: none;
 	}
 	
