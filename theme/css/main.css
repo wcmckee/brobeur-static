@@ -17,12 +17,12 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #bdd0e8;
+    background: #a3aec3;
     color: #834d52;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: "Courier New", Courier, monospace;
     line-height: 1.429;
-    margin: 24px;
+    margin: 12px;
     padding: 0;
     text-align: left;
 }
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     	font-family: "Courier New", Courier, monospace;
 }
 
-h3, h4, h5, h6 { margin-top: .8em; }
+h3, h4, h5, h6 { margin-top: .5em; }
 	
 hr { border: 20px solid #EEEEEE; }
 
@@ -56,14 +56,15 @@ a:link, a:visited {
 	text-decoration: underline;
 }
 a:hover, a:active {
-	background-color: #C74350;
-	color: #fff;
+	background-color: #a58b8e;
+	color: #cec095;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
 }
 
 h1 a:hover {
-    background-color: inherit
+    background-color: inherit;
+    color: #cec095
 }
 	
 /* Paragraphs */
@@ -155,16 +156,17 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	Header
 *****************/
 #banner {
-	margin: 0 auto;
+	margin: 20px auto;
 	padding: 2.5em 0 0 0;
+	margin-left: 150px;
 }
 
 	/* Banner */
 	#banner h1 {font-size: 3.571em; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #000305;
+		color: #541718;
 		display: block;
-		font-weight: bold;
+		font-weight: normal;
 		margin: 100 50 .6em .2em;
 		text-decoration: none;
 	}
