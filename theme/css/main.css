@@ -18,7 +18,7 @@
 /* Body */
 body {
     background: #a2aec3;
-    color: #834d52;
+    color: #521117;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: "Courier New", Courier, monospace;
     line-height: 1.429;
@@ -50,13 +50,13 @@ hr { border: 2px solid #551819; }
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
-	color: #551819;
+	color: #fff;
 	padding: 0 1px;
 	text-decoration: underline;
 }
 a:hover, a:active {
 	background-color: #C74350;
-	color: #fff;
+	color: #834d52;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
 }
@@ -122,7 +122,8 @@ div.note {
 }
 
 /* Tables */
-table {margin: .5em auto 1.5em auto; width: 98%;}
+table {margin: .5em auto 1.5em auto; width: 58%;
+       color: #fff;}
 	
 	/* Thead */
 	thead th {padding: .5em .4em; text-align: left;}
@@ -222,7 +223,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	Featured
 *****************/
 #featured {
-	background: #fff;
+	background: #834d52;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px;
@@ -245,13 +246,13 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #featured h3 {font-size: 1.429em; margin-bottom: .5em;}
 
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
-#featured h3 a:hover, #featured h3 a:active {color: #fff;}
+#featured h3 a:hover, #featured h3 a:active {color: #834d52;}
 
 /*
 	Body
 *****************/
 #content {
-	background: #fff;
+	background: #d2e4c0;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
@@ -268,7 +269,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #extras {margin: 0 auto 3em auto; overflow: hidden;}
 
 #extras ul {list-style: none; margin: 0;}
-#extras li {border-bottom: 1px solid #fff;}
+#extras li {border-bottom: 1px solid #834d52;}
 #extras h2 {
 	color: #C74350;
 	font-size: 1.429em;
@@ -284,7 +285,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	padding: .3em .25em;
 }
 
-#extras a:hover, #extras a:active {color: #fff;}
+#extras a:hover, #extras a:active {color: #834d52;}
 
 	/* Blogroll */
 	#extras .blogroll {
@@ -338,7 +339,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	About
 *****************/
 #about {
-	background: #fff;
+	background: #834d52;
 	font-style: normal;
 	margin-bottom: 2em;
 	overflow: hidden;
@@ -377,7 +378,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 .hentry img{display : none ;}
 .entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
 .entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
-.entry-title a:visited {background-color: #fff;}
+.entry-title a:visited {background-color: #834d52;}
 
 .hentry .post-info * {font-style: normal;}
 
